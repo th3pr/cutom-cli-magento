@@ -1,6 +1,5 @@
 #### Contents
 *   <a href="#syn">Synopsis</a>
-*   <a href="#over">Overview</a>
 *   <a href="#install">Install the sample module</a>
 *   <a href="#add-register">Add and register the command</a>
 *   <a href="#contrib">Contributors</a>
@@ -15,16 +14,6 @@ This sample module creates two new command-line commands:
 *   `greeting` (displays a greeting)
 
 You can use this sample module as an example to create your own custom commands.
-
-<h2 id="over">Overview</h2>
-As with all other Magento command-line utilities, you run this sample command from the `<your Magento install dir>/bin` directory. For more information, see the <a href="http://devdocs.magento.com/guides/v2.0/install-gde/install/cli/install-cli.html#instgde-install-cli-first" target="_blank">Magento Installation Guide</a>.
-
-Before you begin, make sure you understand the following:
-
-*   All Magento command-line interface (CLI) commands rely on the Magento application and must have access to its context, dependency injections, plugins, and so on.
-*   All CLI commands should be implemented in the scope of your module and should depend on the module's status.
-*   Your command can use the Object Manager and Magento dependency injection features; for example, it can use <a href="http://devdocs.magento.com/guides/v2.0/extension-dev-guide/depend-inj.html#dep-inj-preview-cons" target="_blank">constructor dependency injection</a>.
-*   You must register your command as discussed in <a href="#add-register">Add and register the command</a>.
 
 <h2 id="install">Install the sample module</h2>
 You'll find it useful to install this sample module so you can refer to it when you're coding your own custom commands. If you'd prefer not to, continue with <a href="#add-register">Add and register the command</a>.
